@@ -1,0 +1,45 @@
+.features__list {
+  display: flex;
+  margin: 0;
+}
+
+.features__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+
+  margin-bottom: 30px;
+
+  background-color: var(--azur-background);
+}
+
+.features__svg {
+  width: 70px;
+  height: 70px;
+}
+
+.features__title {
+  margin-bottom: 10px;
+
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features__text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--font-color-primary);
+}

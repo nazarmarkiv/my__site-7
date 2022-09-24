@@ -1,0 +1,52 @@
+.icon-container {
+  align-items: center;
+  margin-left: 70px;
+  padding: 0;
+}
+
+.icon-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--white-color);
+}
+
+.icon-list {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.icon-list .icon-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.icon-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  fill: var(--white-color);
+
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--accent-color);
+  fill: var(--white-color);
+}
+
+.icon-svg {
+  width: 20px;
+  height: 20px;
+}

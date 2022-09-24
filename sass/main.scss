@@ -1,0 +1,28 @@
+@import './utils/root';
+@import './base/body-style';
+@import './base/general-styles';
+
+@import "./heder/heder";
+@import './heder/secondary';
+
+@import './components/logo';
+@import './components/button';
+@import './components/container';
+@import './components/section';
+
+@import './layout/hero';
+
+@import './layout/modal';
+@import './layout/modal-form';
+@import './layout/modal-checkbox';
+@import './layout/features';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+
+@import './footer/footer-style';
+@import './footer/footer-icon';
+@import './footer/mailing-list';
+
+@import './layout/portfolio/portfolio';
+@import './layout/portfolio/filter';
